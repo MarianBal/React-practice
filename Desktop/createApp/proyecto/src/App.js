@@ -8,7 +8,8 @@ import './App.css';
 //import EjercicioTres from './components/EjercicioTres';
 //import EjercicioCuatro from './components/EjercicioCuatro';
 //import EjercicioDosHooks from './components/EjercicioDosHooks';
-import Modal from './components/Modal';
+//import Modal from './components/Modal';
+import ModalConHook from './components/ModalConHook';
 
 class App extends Component {
 
@@ -27,7 +28,8 @@ class App extends Component {
       //<EjercicioNueve/>
       //<EjercicioOnce/>
       //<EjercicioDosHooks/>
-      <Modal/>
+      //<Modal/>
+      <ModalConHook/>
     );
   }
 }
